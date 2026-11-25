@@ -1,3 +1,9 @@
+"""Write this entry's single-line office joke to entry.txt.
+
+Standard library only. The output file is written to $MAKEFUN_OUTPUT_DIR when
+that variable is set and non-empty, otherwise to /output.
+"""
+
 import os
 
 TEXT = (
